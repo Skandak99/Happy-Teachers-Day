@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(219, 137, 204, 0.849);
+}
+#image{
+    background-color: yellow;
+    margin: 150px;
+    padding: 100px;
+    border-radius: 100px;
+}
+img{
+    width: 250px;
+    border: aqua 18px solid;
+    border-radius: 9px;
+}
+#kannan:hover{
+    transform: scale(1.369);
+}
+#paviethra:hover{
+    transform: scale(1.27);
+}
+#venkat:hover{
+    transform: scale(1.18);
+}
+#ramkumar:hover{
+    transform: scale(1.135);
+}
+#swathi:hover{
+    transform: scale(1.09);
+}
+#venkatesh:hover{
+    transform: scale(1.054);
+}
+#asmita:hover{
+    transform: scale(1.036);
+}
+.img{
+    margin: 100px 50px;
+    
+}
+
+.img:nth-child(2n){
+    text-align: left;
+    margin-left: 100px;
+}
+
+.img:nth-child(2n-1){
+    text-align: right;
+    margin-right: 100px;
+}
+hr{
+    margin: 50px;
+}
+
+#div{
+    background-color: lightblue;
+    margin: 50px 150px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 200px;
+}
+
+#happy{
+    width: 550px;
+    margin: 50px;
+    border: solid 20px red;
+    border-radius: 30px;
+}
+h2{
+    font-size: 50px;
+    margin: 36px;
+}
+#awesome{
+    background: linear-gradient(to right, magenta, pink );
+    padding: 9px;
+    color: orangered;
+    border: 5.4px white solid;
+}
+#day{
+    background: linear-gradient(to left, green, forestgreen, lightgreen );
+    padding: 9px;
+    color: beige;
+    border: 5.4px solid black;
+} 
+#day, #awesome{
+    border-radius: 9px;
+}
+
+h1{
+    font-size: 54px;
+    text-align: center;
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    width: max-content;
+    margin: auto;
+    padding: 9px 18px;
+    margin-bottom: 18px;
+}
+h1:hover{
+   background-color: beige;
+   transform: scale(1.09);
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 18px;
+    border: grey 5px solid;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    background-color: mediumblue;
+}
+a:hover{
+    background-color: orange;
+}
+a:active{
+    background-color: red;
+}
+#a{
+    text-align: center;
+    margin-top: 31.5px;
+}
+
+.mentor:hover{
+    border: black 18px solid;
+
+}
+
+#awe{
+    padding: 1px 3px 5px 3px;
+    border-radius: 36px;
+}
+#awe:hover{
+    font-size: 63px;
+    color: chocolate;
+    background-color: cyan;
+}
+
+
+
+.right{
+    position: relative;
+    right: 36px;
+    margin-left: 470px;
+}
+.left{
+    position: relative;
+    left: 9px; 
+}
+
+p{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    background-color: lightskyblue;
+    color: orangered;
+    padding: 5.4px;
+    border-radius: 21.6px;
+    margin-top: 40px;
+    width: max-content;
+
+}
